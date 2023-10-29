@@ -126,7 +126,7 @@ class TestUser(unittest.TestCase):
         self.assertEqual(new_d["updated_at"], u.updated_at.strftime(t_format))
 
     def test_str(self):
-        """test that str method has the correct output"""
+        """test that the str method has the correct output"""
         user = User()
         string = "[User] ({}) {}".format(user.id, user.__dict__)
         self.assertEqual(string, str(user))

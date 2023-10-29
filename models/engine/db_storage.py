@@ -82,7 +82,7 @@ class DBStorage:
         return self.all().get(cls + "." + id)
 
     def count(self, cls=None):
-        """Counts number of objects in storage matching cls
+        """Counts the number of objects in storage matching cls
         all_objects = self.all().values()
         if cls:
             if type(cls) is not str:
