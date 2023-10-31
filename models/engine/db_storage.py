@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the class DBStorage
+Conta8888ins the Class DBStorage
 """
 
 import models
